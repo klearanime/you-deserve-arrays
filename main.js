@@ -1,12 +1,27 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function getFirstItemFrom(arr) {
+  return arr[0]
+}
 
+function getLastItemFrom(arr) {
+  return arr[arr.length-1]
+}
 
+function getIndex3(arr) {
+  return arr[3]
+  return arr[firstOfIndex]
+}
 
+function isLongList(arr) {
+  return arr[index>10]
+  
+}
 
-
-
+function firstItemIsNumber(arr) {
+  return arr[arr.length]
+}
 
  /********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
