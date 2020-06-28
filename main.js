@@ -10,17 +10,21 @@ function getLastItemFrom(arr) {
 }
 
 function getIndex3(arr) {
-  return arr[3]
-  return arr[firstOfIndex]
+  return arr[3] || arr[arr.length-1]
 }
+
 
 function isLongList(arr) {
-  return arr[index>10]
-  
+  return arr>=[10] || arr[8]  
+} 
+
+
+function firstItemIsNumber(num, str) {
+  return num === num && num === str && !str   
 }
 
-function firstItemIsNumber(arr) {
-  return arr[arr.length]
+function secondCharOfThirdString(arr, str) {
+  return charSet[1] && str[2]
 }
 
  /********************************************
